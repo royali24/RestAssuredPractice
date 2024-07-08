@@ -46,4 +46,16 @@ public class TestGetMethod {
 			.when().get()
 			.then().statusCode(200);
 	}
+	@Test
+	public void test03() {
+		
+		//given, when, then
+		baseURI="https://reqres.in/api/users/2";
+		
+		given()
+		.when()
+			.get()
+		.then()
+			.statusCode(200);
+	}
 }

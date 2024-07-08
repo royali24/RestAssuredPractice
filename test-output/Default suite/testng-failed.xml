@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.API.requests.TestGetMethod">
+      <class name="practice.API.requests.ValidateResponse">
         <methods>
-          <include name="test03"/>
+          <include name="ValidateResponseHeader_BDD"/>
         </methods>
-      </class> <!-- practice.API.requests.TestGetMethod -->
+      </class> <!-- practice.API.requests.ValidateResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
