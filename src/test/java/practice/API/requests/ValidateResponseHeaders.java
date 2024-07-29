@@ -9,7 +9,7 @@ import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class ValidateHeaders {
+public class ValidateResponseHeaders {
 	
 	@Test
 	public void validateHeader01() {

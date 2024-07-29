@@ -13,9 +13,9 @@ import static io.restassured.RestAssured.*;
 	 * }
 	 */
 public class TestPutMethod {
-	@Test
+	@Test (priority = 1)
 	public void testPut01() {
-		baseURI = "https://reqres.in/api/users/770";
+		baseURI = "	";
 		
 		JSONObject updateJson = new JSONObject();
 		updateJson.put("name", "chamkumangu");
@@ -25,7 +25,8 @@ public class TestPutMethod {
 		.header("Content-Type", "application/json")
 		.body(updateJson.toJSONString())
 		.when().put()
-		.then().statusCode(200).log().all();
+		.then().statusCode(200);
+		
 	}
-
+	
 }

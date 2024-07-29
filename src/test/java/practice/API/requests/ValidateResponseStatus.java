@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 
-public class ValidateResponse {
+public class ValidateResponseStatus {
 	@Test
 	public void ValidateResponseStatus01() {
 		baseURI ="https://reqres.in/api/users/2";
@@ -39,7 +39,6 @@ public class ValidateResponse {
 			get().
 		then().
 			statusCode(200).
-			statusLine("HTTP/1.1 200 OK");
-		
+			statusLine("HTTP/1.1 200 OK");		
 	}
 }
