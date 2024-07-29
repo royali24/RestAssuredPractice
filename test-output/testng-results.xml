@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-28T00:34:23 EDT" name="Default suite" finished-at="2024-07-28T00:34:28 EDT" duration-ms="4767">
+  <suite started-at="2024-07-29T06:06:21 EDT" name="Default suite" finished-at="2024-07-29T06:06:25 EDT" duration-ms="3421">
     <groups>
     </groups>
-    <test started-at="2024-07-28T00:34:23 EDT" name="Default test" finished-at="2024-07-28T00:34:28 EDT" duration-ms="4767">
-      <class name="practice.API.requests.ValidateResponseBody_JSON">
-        <test-method signature="validateJSONResponseBody()[pri:0, instance:practice.API.requests.ValidateResponseBody_JSON@441772e]" started-at="2024-07-28T00:34:24 EDT" name="validateJSONResponseBody" finished-at="2024-07-28T00:34:28 EDT" duration-ms="4691" status="PASS">
+    <test started-at="2024-07-29T06:06:21 EDT" name="Default test" finished-at="2024-07-29T06:06:25 EDT" duration-ms="3421">
+      <class name="practice.API.requests.QueryParameters">
+        <test-method signature="queryParameters()[pri:0, instance:practice.API.requests.QueryParameters@441772e]" started-at="2024-07-29T06:06:21 EDT" name="queryParameters" finished-at="2024-07-29T06:06:25 EDT" duration-ms="3360" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateJSONResponseBody -->
-      </class> <!-- practice.API.requests.ValidateResponseBody_JSON -->
+        </test-method> <!-- queryParameters -->
+      </class> <!-- practice.API.requests.QueryParameters -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

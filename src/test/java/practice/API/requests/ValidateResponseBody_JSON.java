@@ -22,7 +22,7 @@ public class ValidateResponseBody_JSON {
 		
 		//Specify baseUri and basePath
 		reqspec.baseUri("https://reqres.in");
-		reqspec.basePath("api/users?page=2");
+		reqspec.basePath("/api/users?page=2");
 		
 		//Perform Get request
 		Response response = reqspec.get();
@@ -52,8 +52,6 @@ public class ValidateResponseBody_JSON {
 		
 	
 	}
-	
-	
 	
 	
 }
