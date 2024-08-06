@@ -32,6 +32,8 @@ public class ValidateResponseBody_JSON {
 		//read response body
 		ResponseBody responseBody = response.getBody();
 		
+		
+		
 		//Store response body as string
 		String responseString= responseBody.asPrettyString();
 		
@@ -42,9 +44,13 @@ public class ValidateResponseBody_JSON {
 		//String name = response.jsonPath().get("data[0].first_name");
 		
 		String name = jsonpath.get("data[0].first_name");
+			
+		
 		System.out.println("Name 1st first place: " +name);
 		Assert.assertEquals(name, "George", "Expected Name not present");
 		
+		String LN= response.getBody().jsonPath().get("data[0].last_name");
+		System.out.println("Name 1st Last place: " +LN);
 		
 		//check for presense on name Tracy
 		

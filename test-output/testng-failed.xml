@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.API.requests.QueryParameters">
+      <class name="practice.API.requests.AuthorizationToken_BasicDigest">
         <methods>
-          <include name="queryParameters"/>
+          <include name="BasicAuthorization"/>
         </methods>
-      </class> <!-- practice.API.requests.QueryParameters -->
+      </class> <!-- practice.API.requests.AuthorizationToken_BasicDigest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
