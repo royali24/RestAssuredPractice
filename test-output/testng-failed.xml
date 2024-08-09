@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.API.requests.AuthorizationToken_BasicDigest">
+      <class name="deserialization.JSONdeserialization">
         <methods>
-          <include name="BasicAuthorization"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- practice.API.requests.AuthorizationToken_BasicDigest -->
+      </class> <!-- deserialization.JSONdeserialization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
